@@ -8,13 +8,13 @@ Você foi integrado(a) à equipe de engenharia de um sistema corporativo de Help
 
 No entanto, a arquitetura está colapsando:
 
-Roteamento Rígido: A triagem de chamados é feita por um bloco de ifs interminável. Se contratarmos um "Especialista em Redes" para ajudar, a classe principal terá que ser alterada.
+**Roteamento Rígido:** A triagem de chamados é feita por um bloco de ifs interminável. Se contratarmos um "Especialista em Redes" para ajudar, a classe principal terá que ser alterada.
 
-Código Duplicado: A geração de relatórios em PDF e CSV compartilha 80% do mesmo código, mudando apenas uma etapa de formatação.
+**Código Duplicado:** A geração de relatórios em PDF e CSV compartilha 80% do mesmo código, mudando apenas uma etapa de formatação.
 
-Falta de "Ctrl+Z": O editor de respostas do atendente atualiza o texto diretamente. Se ele apagar tudo por engano, perde o trabalho inteiro.
+**Falta de "Ctrl+Z":** O editor de respostas do atendente atualiza o texto diretamente. Se ele apagar tudo por engano, perde o trabalho inteiro.
 
-Quebra de Encapsulamento: A caixa de entrada de tickets expõe publicamente que usa um Array fixo. Todo o sistema está programando laços for baseados nesse array.
+**Quebra de Encapsulamento:** A caixa de entrada de tickets expõe publicamente que usa um Array fixo. Todo o sistema está programando laços for baseados nesse array.
 
 A sua missão é aplicar os Padrões Comportamentais (GoF) finais para organizar os algoritmos, gerenciar estados e criar fluxos de responsabilidade dinâmicos.
 
